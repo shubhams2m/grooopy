@@ -36,7 +36,24 @@
 
 ## 🚀 Installation
 
-### From Source (Developer)
+### ⚡ Quick Install (Recommended)
+
+Just want to use it? Download and go:
+
+1. **[Download the latest release](https://github.com/shubhams2m/grooopy/releases/latest)** (`.zip` file)
+2. Extract the zip to a folder
+3. Open Chrome → go to `chrome://extensions`
+4. Enable **Developer Mode** (toggle in top right)
+5. Click **"Load unpacked"** → select the extracted folder
+6. Done! Click the 🧠 icon to organize your tabs
+
+> **Note:** On first use, the AI model (~23MB) will be downloaded and cached in your browser.
+
+---
+
+### 🛠️ Install from Source (For Developers)
+
+Want to contribute or customize? Build from source:
 
 ```bash
 # Clone the repository
@@ -56,7 +73,9 @@ Then load in Chrome:
 3. Click **Load unpacked**
 4. Select the `grooopy` folder
 
-### From Chrome Web Store
+---
+
+### 🏪 Chrome Web Store
 *Coming soon...*
 
 ---
