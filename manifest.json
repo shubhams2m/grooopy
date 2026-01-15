@@ -4,7 +4,7 @@
     "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; connect-src 'self' https://huggingface.co https://*.huggingface.co https://*.hf.co https://cdn.jsdelivr.net;"
   },
   "name": "Grooopy - AI Tab Grouper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically groups similar tabs using a lightweight client-side clustering model.",
   "permissions": [
     "tabs",
@@ -24,8 +24,13 @@
     "128": "icons/icon128.png"
   },
   "action": {
-    "default_title": "Grooopy Options",
-    "default_popup": "src/popup.html"
+    "default_title": "Grooopy - AI Tab Grouper",
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
   },
   "host_permissions": [
     "http://*/*",
