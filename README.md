@@ -47,7 +47,7 @@ Just want to use it? Download and go:
 5. Click **"Load unpacked"** → select the extracted folder
 6. Done! Click the 🧠 icon to organize your tabs
 
-> **Note:** On first use, the AI model (~23MB) will be downloaded and cached in your browser.
+> **⏳ First-time setup:** The AI model (~23MB) downloads on first use. This may take **30-60 seconds** depending on your internet speed. After that, it's cached and instant!
 
 ---
 

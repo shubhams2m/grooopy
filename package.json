@@ -1,6 +1,6 @@
 {
   "name": "grooopy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AI-powered tab grouping for Chrome. Uses semantic embeddings to intelligently organize your browser tabs.",
   "main": "background.js",
   "scripts": {

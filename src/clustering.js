@@ -1,8 +1,13 @@
 import { pipeline, env } from '@xenova/transformers';
 
-// Configure transformers.js for browser environment
+// Configure transformers.js for Chrome Extension environment
 env.allowLocalModels = false;
 env.useBrowserCache = true;
+
+// CRITICAL: Disable ONNX Web Workers to avoid CSP blob: URL errors in Chrome Extensions
+// Workers use blob: URLs which are blocked by extension CSP
+env.backends.onnx.wasm.numThreads = 1;
+env.backends.onnx.wasm.proxy = false;
 
 /**
  * ═══════════════════════════════════════════════════════════════════════════════
